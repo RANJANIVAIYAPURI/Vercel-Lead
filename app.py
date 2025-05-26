@@ -26,6 +26,7 @@ def submit_lead():
         "last_name": request.form['last_name'],
         "email_id": request.form['email_id'],
         "mobile_no": request.form['mobile_no'],
+        "message": request.form['message'],        
         "status": "Open",
         "type": "Client",
         "source": "Website",
